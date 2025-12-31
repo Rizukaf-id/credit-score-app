@@ -16,8 +16,8 @@ COPY src/ ./src
 COPY models/ ./models/
 
 # expose port
-EXPOSE 8501
-EXPOSE 8000
+EXPOSE 7860
+# EXPOSE 8000
 
 # main command
 COPY run_app.sh .

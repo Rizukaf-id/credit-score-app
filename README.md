@@ -80,13 +80,12 @@ docker build -t credit-app .
 # 3. Run Container
 docker run -p 7860:7860 -p 8000:8000 credit-app
 ```
+
 Akses aplikasi di browser: http://localhost:7860
 📊 Model Performance
+- Training ROC-AUC: 0.76
+- Validation ROC-AUC: 0.71
 
-    Training ROC-AUC: 0.76
-
-    Validation ROC-AUC: 0.71
-
-    Insight: Model memiliki performa yang stabil (tidak overfitting parah) dan mampu membedakan nasabah berisiko dengan probabilitas 71%.
+**Insight:** Model memiliki performa yang stabil (tidak overfitting parah) dan mampu membedakan nasabah berisiko dengan probabilitas 71%.
 
 Created by Rizka F. as part of Data Science Portfolio.

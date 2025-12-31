@@ -12,7 +12,7 @@ Lembaga keuangan perlu memprediksi kemampuan bayar nasabah secara akurat untuk m
 * **Preprocessing:** Scikit-Learn Pipeline (Imputation, Scaling, Encoding).
 * **Backend:** FastAPI (Microservice Architecture).
 * **Frontend:** Streamlit.
-* **Deployment:** Docker & Render.
+* **Deployment:** Docker & Huggingface.
 
 ## 📊 Model Performance
 * **ROC-AUC Score:** 0.71 (Validation Set).
